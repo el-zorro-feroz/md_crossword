@@ -1,21 +1,23 @@
 name: md_crossword
 description: Flutter crossword with Markdown support
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: ">=3.0.6 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  markdown: ^7.1.1
+  flutter_markdown: ^0.6.17
+  flutter_web_plugins:
+    sdk: flutter
 
 dev_dependencies:
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
