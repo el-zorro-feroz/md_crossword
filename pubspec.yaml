@@ -1,7 +1,5 @@
 name: md_crossword
-description: A new Flutter project.
-
-# Prevent accidental publishing to pub.dev.
+description: Flutter crossword with Markdown support
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -23,10 +21,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # Enable generation of localized Strings from arb files.
   generate: true
 
   assets:
-    # Add assets from the images directory to the application.
     - assets/images/
